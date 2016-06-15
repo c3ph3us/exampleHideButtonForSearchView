@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  /*
+  ~  * Copyright © 2015-2016 by ceph3us
+  ~  * All Rights Reserved.
+  ~  * www.ceph3us.pl
+  ~  */
+  ~
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutSearch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="8">
+
+    <SearchView
+        android:id="@+id/svMailSent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6" />
+
+    <Button
+        android:id="@+id/btnSentSearchClear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Clear"/>
+</LinearLayout>
